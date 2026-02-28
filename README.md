@@ -2,11 +2,11 @@
 
 ## Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
 
-conda create --name dsacyberaip10 python=3.13
+conda create --name cyberaip python=3.13
 
 ## Ative o ambiente:
 
-conda activate dsacyberaip10 (ou: source activate dsacyberaip10)
+conda activate cyberaip (ou: source activate cyberaip)
 
 ## Instale o pip e as dependências:
 
@@ -15,12 +15,12 @@ pip install -r requirements.txt
 
 ## Execute o script:
 
-python dsa_projeto10_agentes_seguranca.py
+python agentes_seguranca.py
 
 ## Acesse o jupyter pelo seu navegador padrão.
 
 ## Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
 
 conda deactivate
-conda remove --name dsacyberaip10 --all
+conda remove --name cyberaip --all
 
